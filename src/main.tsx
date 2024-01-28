@@ -1,11 +1,10 @@
 import "@mercuryworkshop/alicejs";
-import { Header } from "./header.tsx"
+import { Body } from "./body.tsx"
 
 function App() {
-  this.counter = 0;
   return (
     <div>
-      <Header />
+      <Body />
     </div>
   );
 }

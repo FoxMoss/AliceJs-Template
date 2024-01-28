@@ -1,19 +1,18 @@
 import "@mercuryworkshop/alicejs";
-import "./header.css"
 
 class Time {
-  date = "now";
+  date = new Date();
 }
 let time = stateful(new Time())
-export function Header() {
+export function Body() {
 
   setInterval(function() {
-    time.date = Date();
-  }, 1)
+    time.date = new Date();
+  }, 100)
 
 
   return (
-    <div class="Header">
+    <div>
       <h2>{time.date}</h2>
     </div>
   )

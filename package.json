@@ -1,6 +1,6 @@
 {
-  "name": "Anon Fox",
-  "private": true,
+  "name": "AliceJs Template",
+  "author": "foxmoss",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
